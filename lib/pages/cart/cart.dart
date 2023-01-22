@@ -74,8 +74,12 @@ class _CartPageState extends State<CartPage> {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           onTap: (){
-                                            Navigator.push(context, MaterialPageRoute(builder: (context)=>const SingalPage()));
-                                          },
+                                            Navigator.push(context, MaterialPageRoute(builder: (context)=> SingalPage(
+                                                productImage:ListValue().shoes[index]['image'],
+                                                productName: ListValue().shoes[index]['name'],
+                                                productPrice: ListValue().shoes[index]['price'],
+                                            )));
+                                          }
                                         ),
                                         const SizedBox(
                                           height: 10,
