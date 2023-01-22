@@ -33,7 +33,7 @@ class _SliderpageState extends State<Sliderpage> {
         ),
         Positioned(
           bottom: 15,
-          left: MediaQuery.of(context).size.width*.45,
+          left: MediaQuery.of(context).size.width*.38,
           child: CarouselIndicator(
             animationDuration: 1,
             width: 15,

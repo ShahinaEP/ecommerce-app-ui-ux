@@ -11,4 +11,30 @@ class Constants{
   Color iconColors2 = Colors.deepOrange;
   TextStyle optionStyle = const
   TextStyle(fontSize: 30, fontWeight: FontWeight.w600);
+
+
+  AppBar custom_appbar(icon1,String title,icon2, Color2) {
+    return AppBar(
+      backgroundColor: Colors.white,
+      elevation: 0,
+      leading:IconButton(
+        icon: Icon(icon1, color: Colors.black,),
+        onPressed: (){},
+      ),
+      title: Text(title, style: const TextStyle(
+          color: Colors.black,
+          fontWeight: FontWeight.w700,
+          fontSize: 25
+      ),),
+      centerTitle: true,
+      actions: [
+        IconButton(
+          icon: Icon(icon2, color: Color2,),
+          onPressed: (){},
+        ),
+
+      ],
+
+    );
+  }
 }

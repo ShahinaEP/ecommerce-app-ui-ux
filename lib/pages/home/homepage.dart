@@ -6,7 +6,6 @@ import 'package:uiorus/const-class/const-value.dart';
 import 'package:uiorus/const-class/list_value.dart';
 import 'package:uiorus/custom-page/custom_ecommerce_product_card.dart';
 import 'package:uiorus/custom-page/slider_page.dart';
-// import 'package:uiorus/custom-widget/auto-slider-widget/auto_slider_widget.dart';
 import 'package:uiorus/custom-widget/row-list-widget/row_list_widget.dart';
 import 'package:uiorus/custom-widget/search-widget/search_widget.dart';
 import 'package:uiorus/pages/home/search.dart';
@@ -98,7 +97,6 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
     _pageController.dispose();
     super.dispose();
   }
@@ -165,7 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
               Positioned(
                 bottom: 15,
-                left: MediaQuery.of(context).size.width*.45,
+                left: MediaQuery.of(context).size.width*.30,
                 child: CarouselIndicator(
                   animationDuration: 1,
                   width: 15,

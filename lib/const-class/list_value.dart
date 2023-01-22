@@ -82,4 +82,38 @@ class ListValue {
       'rate': '8'
     },
   ];
+
+  List shoes =[
+    {
+      'image':
+          "images/shoe.png",
+      "name":"Nike Air Max 200",
+      "price":"240.00"
+    },
+    {
+      'image':
+      "images/shoe4.png",
+      "name":"Exceed Sneakers",
+      "price":"260.00"
+    },
+    {
+      'image':
+      "images/shoe2.png",
+      "name":"Air Max Motion 2",
+      "price":"290.00"
+    },
+    {
+      'image':
+      "images/shoe3.png",
+      "name":"Leather Sneakers",
+      "price":"270.00"
+    },
+    {
+      'image':
+      "images/shoe1.png",
+      "name":"Exceed Sneakers",
+      "price":"260.00"
+    },
+  ];
+
 }
