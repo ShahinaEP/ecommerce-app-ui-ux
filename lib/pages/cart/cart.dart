@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uiorus/const-class/list_value.dart';
 import 'package:uiorus/pages/singal/singal_page.dart';
+import 'package:uiorus/pages/singal/singleDetails.dart';
 
 import '../../const-class/const-value.dart';
 
@@ -74,11 +75,12 @@ class _CartPageState extends State<CartPage> {
                                                 fontWeight: FontWeight.bold),
                                           ),
                                           onTap: (){
-                                            Navigator.push(context, MaterialPageRoute(builder: (context)=> SingalPage(
-                                                productImage:ListValue().shoes[index]['image'],
-                                                productName: ListValue().shoes[index]['name'],
-                                                productPrice: ListValue().shoes[index]['price'],
-                                            )));
+                                            Navigator.push(context, MaterialPageRoute(builder: (context)=> SingleDetails()));
+                                            //     Navigator.push(context, MaterialPageRoute(builder: (context)=> SingalPage(
+                                            //     productImage:ListValue().shoes[index]['image'],
+                                            //     productName: ListValue().shoes[index]['name'],
+                                            //     productPrice: ListValue().shoes[index]['price'],
+                                            // )));
                                           }
                                         ),
                                         const SizedBox(

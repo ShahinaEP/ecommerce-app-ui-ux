@@ -254,7 +254,7 @@ class SingalPage extends StatelessWidget {
       ),
       bottomNavigationBar:  ClipRRect(
         borderRadius: BorderRadius.circular(20),
-        child:  CustomButtom(
+        child: const CustomButtom(
           btnName: 'Add Cart',
           bgColor: Colors.red,
           textStyle: TextStyle(
